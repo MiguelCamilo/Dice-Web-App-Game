@@ -1,80 +1,97 @@
 .container {
-  width: 70%;
-  margin: auto;
-  text-align: center;
+	width: 70%;
+	margin: auto;
+	text-align: center;
 }
 
 .dice {
-  text-align: center;
-  display: inline-block;
-
+	text-align: center;
+	display: inline-block;
 }
 
 body {
-  background-color: #393E46;
+	background-color: #393e46;
 }
 
 h1 {
-  margin: 30px;
-  padding-left: 5rem;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ECCA3;
+	margin: 30px;
+	padding-left: 5rem;
+	font-family: "Lobster", cursive;
+	text-shadow: 5px 0 #232931;
+	font-size: 8rem;
+	color: #4ecca3;
 }
 
 h3 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 1.5rem;
-  color: #4ECCA3;
+	margin: 30px;
+	font-family: "Lobster", cursive;
+	text-shadow: 5px 0 #232931;
+	font-size: 1.5rem;
+	color: white;
 }
 
 h4 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #2b2331;
-  font-size: 1.2rem;
-  color: #dd2f2f;
+	margin: 30px;
+	font-family: "Lobster", cursive;
+	text-shadow: 5px 0 #2b2331;
+	font-size: 1.2rem;
+	color: #dd2f2f;
 }
 
 p {
-  font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+	font-size: 2rem;
+	color: #4ecca3;
+	font-family: "Indie Flower", cursive;
 }
 
 img {
-  width: 80%;
+	width: 80%;
 }
 
 footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-
+	margin-top: 5%;
+	color: #eeeeee;
+	text-align: center;
+	font-family: "Indie Flower", cursive;
 }
 
-.refreshBtn {
-  font-family: 'Lobster', cursive;
-  font-size: 1.5rem;
-  border-radius: 10px;
-  color: #4ECCA3;
-  border: none;
-  padding: 1em;
+.rollBtn {
+	font-family: "Lobster", cursive;
+	font-size: 1.5rem;
+	border-radius: 10px;
+	background-color: green;
+	color: white;
+	box-shadow: 5px 0 #232931;
+	border: none;
+	padding: 1em;
 }
 
-.refreshBtn:hover {
-  background-color: #4ECCA3;
-  color: white;
+.rollBtn:hover {
+	background-color: white;
+	color: green;
 }
 
 .btnContainer {
-  width: 100%;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.refreshBtn {
+	margin-left: 2rem;
+	font-family: "Lobster", cursive;
+	font-size: 1.5rem;
+	border-radius: 10px;
+	background-color: #dd2f2f;
+	color: white;
+	box-shadow: 5px 0 #232931;
+	border: none;
+	padding: 1em;
+}
+
+.refreshBtn:hover {
+	background-color: white;
+	color: #dd2f2f;
 }
